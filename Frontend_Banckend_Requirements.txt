@@ -1,0 +1,28 @@
+1. For both Backend and Frontend use node version: 20.11.0
+2. Frontend: don't have any .env file after download the source code can simply run : "npm i" to install the dependancy if it's not working use: "npm i --force"
+3. Frontend: after install the dependancy run the frontend using : "npm start"
+4. Frontend: for build frontend use : "npm run build" 
+5. Frontend: bind the build/index.html file with https://securearbitrage.com domain
+6. Backend: have .env file use this env file before install the dependancy
+7. Backend: install using: "npm i" 
+8. Backend: on .env file have "PORT" and "MONGO_URL" can use it as you need
+9. Backend: for run backned use: "npm start" if can see on terminal server runing and mongodb connected then all ok,
+10. Backend: for permanently run the server can use pm2 or forever
+11. to install pm2 can use : npm i pm2 -g and for forever: npm i forever -g
+12: for run: pm2 start server.js --watch or forever start server.js
+13. Backned URL should be: https://backend.securearbitrage.com
+
+PLEASE NOTE:
+we need ssh server details to get server access and edit or update the code and 
+we want to get the server access using vs code remote ssh, please make sure that
+developer can easily access the the server using your provided ssh details below
+showing the demo server details:
+
+Hostname: root@51.38.223.105
+Username: root
+Password: Lemontree
+
+Developer will not add any private key or any others things just will use the
+hostname and password and can access the frontend and backend code, change easily
+mobify the code from server, and please also mention the path of both backend and frontend code
+like: /var/www/frontend or /var/www/backend
